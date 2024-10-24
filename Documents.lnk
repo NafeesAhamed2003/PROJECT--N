@@ -1,0 +1,7 @@
+def arrayPairSum(self, nums: List[int]) -> int:
+        nums.sort()
+        a, sam= 0,0
+        while a<len(nums):
+            sam += nums [a]
+            a+=2
+        return sam
